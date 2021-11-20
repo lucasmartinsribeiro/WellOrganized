@@ -7,6 +7,24 @@
     width: 13%;
 } 
 
+li, a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.inp-descript{
+    width: 490px;
+    height: 40px;
+    border-color: #50b6cf;
+    border-radius: 7px;
+}
+
 .btn-add{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
