@@ -9,7 +9,7 @@
     margin-bottom: 20px;
 }
 
-ul{
+.ul_menu{
     margin: auto;
     margin-bottom: 60px;
     padding-right: 600px;
@@ -26,6 +26,20 @@ li, a{
 
 p{
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.ul_sub-menu{
+   display: flex;
+   align-items: center;
+}
+
+.descript{
+    padding: 20px;
+}
+
+.color{
+    padding: 20px;
 }
 
 .inp-descript{
@@ -54,4 +68,5 @@ p{
     background-color: #50b6cf;
     border-radius: 11px;
     cursor: pointer;
+    margin-left: 14px;
 }
