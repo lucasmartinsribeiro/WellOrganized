@@ -1,0 +1,11 @@
+.card-style .card1{
+    background-color: #daf5fa;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+.card-style .card2{
+    background-color:#d1fecb;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}

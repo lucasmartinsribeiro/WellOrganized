@@ -72,6 +72,32 @@ p{
     margin-left: 14px;
 }
 
-main div section header p{
+.card-style {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+}
+
+.card-style header{
+    display: flex;
+}
+
+.card-style header p{
+    margin-left: 5px;
+}
+
+.card-style footer{
+    display: flex;
+    justify-content: end;
+    margin-top: 145px;
+}
+
+.card-style footer img{
+   margin-left: 5px;
+}
+
+.card-style main .card-content{
+    margin-top: 15px;
 }
