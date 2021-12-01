@@ -51,12 +51,9 @@ p{
 }
 
 .square-style{
-    width: 20px;
-    height: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 13%;
 } 
 
 .btn-add{
@@ -79,8 +76,7 @@ main{
 .card-style {
     width: 200px;
     height: 200px;
-    /*display: flex;*/
-    /*justify-content: space-between;*/
+    display: inline;
     margin-bottom: 30px;
 }
 

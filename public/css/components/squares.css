@@ -2,39 +2,53 @@
     background-color: #daf5fa;
     border: solid 1.5px grey;
     margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .square-style .square2{
     background-color:#d1fecb;
     border: solid 1.5px grey;
     margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .square-style .square3{
     background-color: #f6d0f6;
     border: solid 1.5px grey;
     margin-right: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .square-style .square4{
     background-color:  #dcd0f3;
     border: solid 1.5px grey;
+    width: 20px;
+    height: 20px;
 }
 
 .square-style .square5{
     background-color: #fcfccb;
     border: solid 1.5px grey;
     margin-left: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .square-style .square6{
     background-color: #fbd4b4;
     border: solid 1.5px grey;
     margin-left: 10px;
+    width: 20px;
+    height: 20px;
 }
 
 .square-style .square7{
     background-color: #ffffff;
     border: solid 1.5px grey;
     margin-left: 10px;
+    width: 20px;
+    height: 20px;
 }
