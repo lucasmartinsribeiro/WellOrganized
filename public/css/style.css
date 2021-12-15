@@ -129,6 +129,15 @@ main{
     padding-left: 25px;
 }
 
+#btn-add{
+    cursor: pointer;
+    border: none;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .task-add p{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
