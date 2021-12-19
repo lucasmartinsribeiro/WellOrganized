@@ -23,10 +23,15 @@ li, a{
     color: #000000;
     text-decoration: none;
 }
-
-p{
-    font-family: 'Roboto', sans-serif;
+.arquivada p{
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
+    margin: 30px;
+}
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #000000;
 }
 
 .ul_sub-menu{
@@ -69,20 +74,17 @@ p{
     margin-left: 14px;
 }
 
-main{
-    margin-left: 20px;
-}
-
 .card-style {
     width: 200px;
     height: 200px;
     display: inline;
-    margin-bottom: 30px;
+    margin: 10px;
 }
 
 .card-style header{
     display: flex;
     background-color: #b8ff99;
+    padding: 5px;
     
 }
 
@@ -97,7 +99,7 @@ main{
 .card-style footer{
     display: flex;
     justify-content: end;
-    margin-top: 125px;
+    margin-top: 115px;
 }
 
 .card-style footer img{
@@ -122,8 +124,8 @@ main{
     text-decoration: line-through;
 }
 
-.task-add{
-    display: flex;
+.taskAdd{
+    display: none;
     flex-direction: row;
     align-items: center;
     padding-left: 25px;
@@ -138,7 +140,7 @@ main{
     align-items: center;
 }
 
-.task-add p{
+.taskAdd p{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: bold;
