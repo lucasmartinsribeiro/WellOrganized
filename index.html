@@ -41,6 +41,7 @@
 
             <ul class="ul_menu">
                 <li><a href="index.html" id="toDo">A fazer</a></li>
+                <button onclick="functionClick()"> teste </button>
                 <li>|</li>
                 <li><a href="arquivadas.html">Arquivadas</a></li>
             </ul>
@@ -50,10 +51,10 @@
         <section class="sub-menu">
 
             <div class="taskAdd" id="idtask">
-                <button id="btn-add"><img src="public/assets/task-add-icon.png"><p>Adicionar Tarefa</p></button>
+                <button id="btn-add" onclick="functionClickTaskAdd()"><img src="public/assets/task-add-icon.png"><p>Adicionar Tarefa</p></button>
             </div>
 
-            <ul class="ul_sub-menu">
+            <ul class="ul_sub-menu" id="idulsub-menu">
                 <label for="inp-descript" class="descript">Descrição <input type="text" class="inp-descript"></label>
                 <label class="color">Cor</label>
 

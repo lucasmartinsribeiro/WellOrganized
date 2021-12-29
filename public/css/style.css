@@ -34,10 +34,14 @@ label{
     color: #000000;
 }
 
-.ul_sub-menu{
+.ul_sub-menu {
    display: flex;
    align-items: center;
    margin-bottom: 50px;
+}
+
+.style_sub-menu {
+  display: none;
 }
 
 .descript{

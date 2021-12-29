@@ -1,12 +1,18 @@
 var toDo = document.querySelector('#toDo');
-var taskAdd = document.querySelector('.taskAdd');
 
-toDo.addEventListener('click', function(){
-    if(taskAdd.style.display === 'flex') {
-        taskAdd.style.display = 'none';
-    } else {
-        taskAdd.style.display = 'flex';
-    }
-});
+function functionClick(){
+   var element = document.getElementById("idulsub-menu");
+   var taskAdd = document.getElementById("idtask");
+   element.classList.toggle("style_sub-menu");
+   taskAdd.style.display = "flex";
+   console.log("taskAdd"); 
+}
+
+function functionClickTaskAdd(){
+    var element = document.getElementById("idulsub-menu");
+    var taskAdd = document.getElementById("idtask");
+    element.classList.toggle("style_sub-menu");
+    taskAdd.style.display = "none"; 
+ }
 
 
