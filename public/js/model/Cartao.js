@@ -1,11 +1,13 @@
 class Cartao{
     _id;
     _descricaoTarefa;
+    _escolherCor;
     _status;
     
-    constructor(id, descricaoTarefa, status){
+    constructor(id, descricaoTarefa, escolherCor, status){
         this.id = id;
         this.descricaoTarefa = descricaoTarefa;
+        this.escolherCor = escolherCor;
         this.status = status;
     }
 
@@ -21,6 +23,13 @@ class Cartao{
     }
     set descricaoTarefa(value) {
         this._descricaoTarefa = value;
+    }
+
+    get escolherCor() {
+        return this._escolherCor;
+    }
+    set escolherCor(value) {
+        this._escolherCor = value;
     }
 
     get status() {

@@ -15,13 +15,19 @@
     padding-right: 600px;
 }
 
-li, a{
+li, a, input{
     display: inline;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     color: #000000;
     text-decoration: none;
+}
+
+#toDo{
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
 .arquivada p{
     font-family: 'Montserrat', sans-serif;

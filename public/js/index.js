@@ -1,18 +1,22 @@
-var toDo = document.querySelector('#toDo');
-
 function functionClick(){
    var element = document.getElementById("idulsub-menu");
    var taskAdd = document.getElementById("idtask");
+   var toDo = document.getElementById("toDo");
+
    element.classList.toggle("style_sub-menu");
    taskAdd.style.display = "flex";
-   console.log("taskAdd"); 
+
+   if (taskAdd.style.display === "flex") {
+      toDo.disabled = true;
+      console.log(toDo)
+      console.log(taskAdd)
+   }
+
 }
 
 function functionClickTaskAdd(){
     var element = document.getElementById("idulsub-menu");
     var taskAdd = document.getElementById("idtask");
     element.classList.toggle("style_sub-menu");
-    taskAdd.style.display = "none"; 
- }
-
-
+    taskAdd.style.display = "none";
+   }
