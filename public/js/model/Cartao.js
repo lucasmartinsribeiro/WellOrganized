@@ -38,5 +38,4 @@ class Cartao{
     set status(value) {
         this._status = value;
     }
-
 }
