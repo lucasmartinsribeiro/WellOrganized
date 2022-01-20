@@ -4,6 +4,7 @@
     margin-right: 10px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .square-style .square2{
@@ -12,6 +13,7 @@
     margin-right: 10px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .square-style .square3{
@@ -20,6 +22,7 @@
     margin-right: 10px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .square-style .square4{
@@ -27,6 +30,7 @@
     border: solid 1.5px grey;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .square-style .square5{
@@ -35,6 +39,7 @@
     margin-left: 10px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .square-style .square6{
@@ -43,6 +48,7 @@
     margin-left: 10px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .square-style .square7{
@@ -51,4 +57,5 @@
     margin-left: 10px;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
