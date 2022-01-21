@@ -6,15 +6,15 @@ function addTask(){
     let status = false;
     let arquive = false;
 
-    description = document.getElementById('descript').value;
+    description = document.getElementById('inp-descript').value;
 
     try {
-        color = document.querySelector('div[name = "color"]: checked').value;
-    } catch (error) {
+        color = document.querySelector('input[name = "color-inp"]:checked').value;
+    } catch {
         alert("A cor não foi escolhida ou não foi selecionada!");
     }
 
-    if (description == '') {
+    if (description === '') {
         alert("Campo Descrição precisa ser preenchido");
     } else {
         tasks = { 
