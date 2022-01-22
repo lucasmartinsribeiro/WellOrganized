@@ -1,4 +1,11 @@
 let btnAddTask = document.querySelector('.btn-add').addEventListener('click', addTask);
+let inpDescription = document.querySelector("#inp-descript");
+let inpColor = document.querySelector(".inp-color");
+
+function clear(){
+    inpDescription.value = "";
+    inpColor.removeAttribute('checked', false);
+}
 
 function addTask(){
     let color = '';
@@ -15,7 +22,7 @@ function addTask(){
     }
 
     if (description === '') {
-        alert("Campo Descrição precisa ser preenchido");
+        alert("Campo Descrição precisa ser preenchido!");
     } else {
         tasks = { 
              "description": description,
@@ -26,6 +33,7 @@ function addTask(){
 
         let id = Math.floor(Math.random() * 10000 + 1);
         localStorage.setItem(id, JSON.stringify(tasks));
+        clear();
     }
 }
 

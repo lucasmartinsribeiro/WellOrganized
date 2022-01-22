@@ -72,7 +72,9 @@ label{
 }
 
 .inp-color {
-   appearance: unset;
+   cursor: pointer;
+   opacity: 0;
+   transform: scale(1.8);
 }
 
 .btn-add{
